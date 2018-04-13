@@ -1,0 +1,37 @@
+body {
+    background-color: navajowhite;
+}
+
+h1 {
+    text-align: center;
+    color: maroon;
+}
+
+p {
+    text-align: center;
+    color: red;
+}
+
+.center {
+    background-color: chartreuse;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.center_flex {
+    display: flex;
+    justify-content: center;
+}
+
+.dragon {
+    width: 800px;
+    height: 600px;
+    background-image: url('img/dragon.png');
+}
+
+.dragon:hover {
+    width: 800px;
+    height: 600px;
+    background-image: url('img/dragon_fire.png');
+}
