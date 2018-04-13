@@ -1,13 +1,23 @@
 body {
+    font-family: 'Berkshire Swash', sans-serif;
     background-color: navajowhite;
 }
 
 h1 {
+    font-size: 250%;
     text-align: center;
     color: maroon;
 }
 
+ul {
+    list-style-image: url(img/bullet.png);
+    font-size: 150%;
+    text-align: center;
+    list-style-position: inside;
+}
+
 p {
+    font-size: 200%;
     text-align: center;
     color: red;
 }
@@ -34,4 +44,28 @@ p {
     width: 800px;
     height: 600px;
     background-image: url('img/dragon_fire.png');
+}
+
+.tunnel-left {
+    width: 463px;
+    height: 600px;
+    background-image: url('img/tunnel_left.png');
+}
+
+.tunnel-left:hover {
+    width: 463px;
+    height: 600px;
+    background-image: url('img/tunnel_left_active.png');
+}
+
+.tunnel-right {
+    width: 337px;
+    height: 600px;
+    background-image: url('img/tunnel_right.png');
+}
+
+.tunnel-right:hover {
+    width: 337px;
+    height: 600px;
+    background-image: url('img/tunnel_right_active.png');
 }
